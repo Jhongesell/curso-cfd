@@ -1,0 +1,2 @@
+# curso-cfd
+OpenFOAM9
