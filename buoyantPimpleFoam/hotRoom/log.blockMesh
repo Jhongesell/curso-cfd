@@ -8,9 +8,9 @@
 Build  : 9-b456138dc4bc
 Exec   : blockMesh
 Date   : Nov 24 2021
-Time   : 14:03:41
+Time   : 14:35:40
 Host   : "tw-Satellite-C45t-A"
-PID    : 24197
+PID    : 25065
 I/O    : uncollated
 Case   : /home/tw/OpenFOAM/tw-9/run/curso-cfd/buoyantPimpleFoam/hotRoom
 nProcs : 1
@@ -21,6 +21,8 @@ allowSystemOperations : Allowing user-supplied system call operations
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 Create time
 
+Deleting polyMesh directory
+    "/home/tw/OpenFOAM/tw-9/run/curso-cfd/buoyantPimpleFoam/hotRoom/constant/polyMesh"
 Reading "blockMeshDict"
 
 Creating block mesh from
