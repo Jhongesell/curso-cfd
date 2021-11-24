@@ -7,10 +7,10 @@
 \*---------------------------------------------------------------------------*/
 Build  : 9-b456138dc4bc
 Exec   : decomposePar -copyZero
-Date   : Nov 23 2021
-Time   : 15:59:35
+Date   : Nov 24 2021
+Time   : 13:24:27
 Host   : "tw-Satellite-C45t-A"
-PID    : 13252
+PID    : 22571
 I/O    : uncollated
 Case   : /home/tw/OpenFOAM/tw-9/run/curso-cfd/motorBike
 nProcs : 1
@@ -45,76 +45,28 @@ Distributing points to processors
 Constructing processor meshes
 
 Processor 0
-    Number of cells = 213
-    Number of faces shared with processor 1 = 39
-    Number of faces shared with processor 3 = 60
-    Number of processor patches = 2
-    Number of processor faces = 99
-    Number of boundary faces = 141
+    Number of cells = 640
+    Number of faces shared with processor 1 = 64
+    Number of processor patches = 1
+    Number of processor faces = 64
+    Number of boundary faces = 384
 
 Processor 1
-    Number of cells = 213
-    Number of faces shared with processor 0 = 39
-    Number of faces shared with processor 2 = 36
-    Number of faces shared with processor 3 = 1
-    Number of faces shared with processor 4 = 52
-    Number of processor patches = 4
-    Number of processor faces = 128
-    Number of boundary faces = 108
+    Number of cells = 640
+    Number of faces shared with processor 0 = 64
+    Number of processor patches = 1
+    Number of processor faces = 64
+    Number of boundary faces = 384
 
-Processor 2
-    Number of cells = 214
-    Number of faces shared with processor 1 = 36
-    Number of faces shared with processor 4 = 1
-    Number of faces shared with processor 5 = 60
-    Number of processor patches = 3
-    Number of processor faces = 97
-    Number of boundary faces = 135
-
-Processor 3
-    Number of cells = 213
-    Number of faces shared with processor 0 = 60
-    Number of faces shared with processor 1 = 1
-    Number of faces shared with processor 4 = 37
-    Number of processor patches = 3
-    Number of processor faces = 98
-    Number of boundary faces = 134
-
-Processor 4
-    Number of cells = 213
-    Number of faces shared with processor 1 = 52
-    Number of faces shared with processor 2 = 1
-    Number of faces shared with processor 3 = 37
-    Number of faces shared with processor 5 = 38
-    Number of processor patches = 4
-    Number of processor faces = 128
-    Number of boundary faces = 108
-
-Processor 5
-    Number of cells = 214
-    Number of faces shared with processor 2 = 60
-    Number of faces shared with processor 4 = 38
-    Number of processor patches = 2
-    Number of processor faces = 98
-    Number of boundary faces = 142
-
-Number of processor faces = 324
-Max number of cells = 214 (0.3125% above average 213.333)
-Max number of processor patches = 4 (33.3333% above average 3)
-Max number of faces between processors = 128 (18.5185% above average 108)
+Number of processor faces = 64
+Max number of cells = 640 (0% above average 640)
+Max number of processor patches = 1 (0% above average 1)
+Max number of faces between processors = 64 (0% above average 64)
 
 Processor 0: copying "/home/tw/OpenFOAM/tw-9/run/curso-cfd/motorBike/0"
  to "/home/tw/OpenFOAM/tw-9/run/curso-cfd/motorBike/processor0/0"
 Processor 1: copying "/home/tw/OpenFOAM/tw-9/run/curso-cfd/motorBike/0"
  to "/home/tw/OpenFOAM/tw-9/run/curso-cfd/motorBike/processor1/0"
-Processor 2: copying "/home/tw/OpenFOAM/tw-9/run/curso-cfd/motorBike/0"
- to "/home/tw/OpenFOAM/tw-9/run/curso-cfd/motorBike/processor2/0"
-Processor 3: copying "/home/tw/OpenFOAM/tw-9/run/curso-cfd/motorBike/0"
- to "/home/tw/OpenFOAM/tw-9/run/curso-cfd/motorBike/processor3/0"
-Processor 4: copying "/home/tw/OpenFOAM/tw-9/run/curso-cfd/motorBike/0"
- to "/home/tw/OpenFOAM/tw-9/run/curso-cfd/motorBike/processor4/0"
-Processor 5: copying "/home/tw/OpenFOAM/tw-9/run/curso-cfd/motorBike/0"
- to "/home/tw/OpenFOAM/tw-9/run/curso-cfd/motorBike/processor5/0"
 
 End
 

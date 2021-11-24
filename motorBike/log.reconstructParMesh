@@ -7,10 +7,10 @@
 \*---------------------------------------------------------------------------*/
 Build  : 9-b456138dc4bc
 Exec   : reconstructParMesh -constant
-Date   : Nov 23 2021
-Time   : 15:59:42
+Date   : Nov 24 2021
+Time   : 13:24:31
 Host   : "tw-Satellite-C45t-A"
-PID    : 13907
+PID    : 22802
 I/O    : uncollated
 Case   : /home/tw/OpenFOAM/tw-9/run/curso-cfd/motorBike
 nProcs : 1
@@ -21,37 +21,17 @@ allowSystemOperations : Allowing user-supplied system call operations
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 Create time
 
-Found 6 processor directories
+Found 2 processor directories
 
 Reading database "motorBike/processor0"
 Reading database "motorBike/processor1"
-Reading database "motorBike/processor2"
-Reading database "motorBike/processor3"
-Reading database "motorBike/processor4"
-Reading database "motorBike/processor5"
 Time = constant
 
 Merging mesh 0 with 1
-Merging mesh 2 with 3
-Merging mesh 4 with 5
-Merging mesh 0 with 2
-Merging mesh 0 with 4
 Reading mesh to add from "motorBike/processor0" for time = constant
 
 
 Reading mesh to add from "motorBike/processor1" for time = constant
-
-
-Reading mesh to add from "motorBike/processor2" for time = constant
-
-
-Reading mesh to add from "motorBike/processor3" for time = constant
-
-
-Reading mesh to add from "motorBike/processor4" for time = constant
-
-
-Reading mesh to add from "motorBike/processor5" for time = constant
 
 
 
@@ -70,30 +50,6 @@ Writing pointProcAddressing to "motorBike/processor1/constant/polyMesh"
 Writing faceProcAddressing to "motorBike/processor1/constant/polyMesh"
 Writing cellProcAddressing to "motorBike/processor1/constant/polyMesh"
 Writing boundaryProcAddressing to "motorBike/processor1/constant/polyMesh"
-
-Reading processor 2 mesh from "motorBike/processor2"
-Writing pointProcAddressing to "motorBike/processor2/constant/polyMesh"
-Writing faceProcAddressing to "motorBike/processor2/constant/polyMesh"
-Writing cellProcAddressing to "motorBike/processor2/constant/polyMesh"
-Writing boundaryProcAddressing to "motorBike/processor2/constant/polyMesh"
-
-Reading processor 3 mesh from "motorBike/processor3"
-Writing pointProcAddressing to "motorBike/processor3/constant/polyMesh"
-Writing faceProcAddressing to "motorBike/processor3/constant/polyMesh"
-Writing cellProcAddressing to "motorBike/processor3/constant/polyMesh"
-Writing boundaryProcAddressing to "motorBike/processor3/constant/polyMesh"
-
-Reading processor 4 mesh from "motorBike/processor4"
-Writing pointProcAddressing to "motorBike/processor4/constant/polyMesh"
-Writing faceProcAddressing to "motorBike/processor4/constant/polyMesh"
-Writing cellProcAddressing to "motorBike/processor4/constant/polyMesh"
-Writing boundaryProcAddressing to "motorBike/processor4/constant/polyMesh"
-
-Reading processor 5 mesh from "motorBike/processor5"
-Writing pointProcAddressing to "motorBike/processor5/constant/polyMesh"
-Writing faceProcAddressing to "motorBike/processor5/constant/polyMesh"
-Writing cellProcAddressing to "motorBike/processor5/constant/polyMesh"
-Writing boundaryProcAddressing to "motorBike/processor5/constant/polyMesh"
 
 End.
 

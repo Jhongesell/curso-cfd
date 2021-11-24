@@ -7,10 +7,10 @@
 \*---------------------------------------------------------------------------*/
 Build  : 9-b456138dc4bc
 Exec   : surfaceFeatures
-Date   : Nov 23 2021
-Time   : 15:59:29
+Date   : Nov 24 2021
+Time   : 13:24:22
 Host   : "tw-Satellite-C45t-A"
-PID    : 13248
+PID    : 22567
 I/O    : uncollated
 Case   : /home/tw/OpenFOAM/tw-9/run/curso-cfd/motorBike
 nProcs : 1
@@ -66,7 +66,7 @@ Writing extendedFeatureEdgeMesh to "constant/extendedFeatureEdgeMesh/motorBike.e
 
 Writing featureEdgeMesh to "constant/geometry/motorBike.eMesh"
 
-ExecutionTime = 3.76 s  ClockTime = 6 s
+ExecutionTime = 3.81 s  ClockTime = 5 s
 
 End
 
