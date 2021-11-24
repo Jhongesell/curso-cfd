@@ -1,0 +1,191 @@
+
+
+--> FOAM FATAL ERROR: 
+bool IPstream::init(int& argc, char**& argv) : attempt to run parallel on 1 processor
+
+    From function static bool Foam::UPstream::init(int&, char**&, bool)
+    in file UPstream.C at line 112.
+
+FOAM aborting
+
+#0  Foam::error::printStack(Foam::Ostream&)
+
+--> FOAM FATAL ERROR: 
+bool IPstream::init(int& argc, char**& argv) : attempt to run parallel on 1 processor
+
+    From function static bool Foam::UPstream::init(int&, char**&, bool)
+    in file UPstream.C at line 112.
+
+FOAM aborting
+
+#0  Foam::error::printStack(Foam::Ostream&)
+
+--> FOAM FATAL ERROR: 
+bool IPstream::init(int& argc, char**& argv) : attempt to run parallel on 1 processor
+
+    From function static bool Foam::UPstream::init(int&, char**&, bool)
+    in file UPstream.C at line 112.
+
+FOAM aborting
+
+#0  Foam::error::printStack(Foam::Ostream&)
+
+--> FOAM FATAL ERROR: 
+bool IPstream::init(int& argc, char**& argv) : attempt to run parallel on 1 processor
+
+    From function static bool Foam::UPstream::init(int&, char**&, bool)
+    in file UPstream.C at line 112.
+
+FOAM aborting
+
+#0  Foam::error::printStack(Foam::Ostream&)
+
+--> FOAM FATAL ERROR: 
+bool IPstream::init(int& argc, char**& argv) : attempt to run parallel on 1 processor
+
+    From function static bool Foam::UPstream::init(int&, char**&, bool)
+    in file UPstream.C at line 112.
+
+FOAM aborting
+
+#0  Foam::error::printStack(Foam::Ostream&)
+
+--> FOAM FATAL ERROR: 
+bool IPstream::init(int& argc, char**& argv) : attempt to run parallel on 1 processor
+
+    From function static bool Foam::UPstream::init(int&, char**&, bool)
+    in file UPstream.C at line 112.
+
+FOAM aborting
+
+#0  Foam::error::printStack(Foam::Ostream&) at ??:?
+#1  Foam::error::abort() at ??:?
+#1  Foam::error::abort() at ??:?
+#1  Foam::error::abort() at ??:?
+#1  Foam::error::abort() at ??:?
+#1  Foam::error::abort() at ??:?
+#1  Foam::error::abort() at ??:?
+#2  Foam::UPstream::init(int&, char**&, bool) at ??:?
+#2  Foam::UPstream::init(int&, char**&, bool) at ??:?
+#2  Foam::UPstream::init(int&, char**&, bool) at ??:?
+#2  Foam::UPstream::init(int&, char**&, bool) at ??:?
+#2  Foam::UPstream::init(int&, char**&, bool) at ??:?
+#3  Foam::argList::argList(int&, char**&, bool, bool, bool) at ??:?
+#3  Foam::argList::argList(int&, char**&, bool, bool, bool) at ??:?
+#3  Foam::argList::argList(int&, char**&, bool, bool, bool) at ??:?
+#3  Foam::argList::argList(int&, char**&, bool, bool, bool) at ??:?
+#3  Foam::argList::argList(int&, char**&, bool, bool, bool) at ??:?
+#2  Foam::UPstream::init(int&, char**&, bool) at ??:?
+#4   at ??:?
+#3  Foam::argList::argList(int&, char**&, bool, bool, bool) at ??:?
+#4   at ??:?
+#4  ?? at ??:?
+#4  ? at ??:?
+#4   in "/opt/openfoam9/platforms/linux64GccDPInt32Opt/bin/potentialFoam"
+#5  __libc_start_main at ??:?
+#4  ? in "/opt/openfoam9/platforms/linux64GccDPInt32Opt/bin/potentialFoam"
+#5  __libc_start_main in "/opt/openfoam9/platforms/linux64GccDPInt32Opt/bin/potentialFoam"
+#5  __libc_start_main? in "/lib/x86_64-linux-gnu/libc.so.6"
+#6  ? in "/lib/x86_64-linux-gnu/libc.so.6"
+#6  ? in "/lib/x86_64-linux-gnu/libc.so.6"
+#6   in "/opt/openfoam9/platforms/linux64GccDPInt32Opt/bin/potentialFoam"
+#5  __libc_start_main in "/opt/openfoam9/platforms/linux64GccDPInt32Opt/bin/potentialFoam"
+#5  __libc_start_main in "/lib/x86_64-linux-gnu/libc.so.6"
+#6   in "/opt/openfoam9/platforms/linux64GccDPInt32Opt/bin/potentialFoam"
+#5  __libc_start_main in "/lib/x86_64-linux-gnu/libc.so.6"
+#6  ?? in "/opt/openfoam9/platforms/linux64GccDPInt32Opt/bin/potentialFoam"
+[tw-Satellite-C45t-A:13588] *** Process received signal ***
+[tw-Satellite-C45t-A:13588] Signal: Aborted (6)
+[tw-Satellite-C45t-A:13588] Signal code:  (-6)
+[tw-Satellite-C45t-A:13588] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x40440)[0x7f952f418440]
+[tw-Satellite-C45t-A:13588] [ 1] /lib/x86_64-linux-gnu/libc.so.6(gsignal+0xc7)[0x7f952f4183b7]
+[tw-Satellite-C45t-A:13588] [ 2] /lib/x86_64-linux-gnu/libc.so.6(abort+0x121)[0x7f952f3f9875]
+[tw-Satellite-C45t-A:13588] [ 3] /opt/openfoam9/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so(_ZN4Foam5error5abortEv+0xee)[0x7f953056d19e]
+[tw-Satellite-C45t-A:13588] [ 4] /opt/openfoam9/platforms/linux64GccDPInt32Opt/lib/openmpi-system/libPstream.so(_ZN4Foam8UPstream4initERiRPPcb+0x40c)[0x7f952f1cdf1c]
+[tw-Satellite-C45t-A:13588] [ 5] /opt/openfoam9/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so(_ZN4Foam7argListC1ERiRPPcbbb+0x8df)[0x7f9530584e1f]
+[tw-Satellite-C45t-A:13588] [ 6] potentialFoam(+0x2d13a)[0x56395088a13a]
+[tw-Satellite-C45t-A:13588] [ 7] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xeb)[0x7f952f3fb3db]
+[tw-Satellite-C45t-A:13588] [ 8] potentialFoam(+0x2f69a)[0x56395088c69a]
+[tw-Satellite-C45t-A:13588] *** End of error message ***
+?[tw-Satellite-C45t-A:13589] *** Process received signal ***
+[tw-Satellite-C45t-A:13589] Signal: Aborted (6)
+[tw-Satellite-C45t-A:13589] Signal code:  (-6)
+[tw-Satellite-C45t-A:13589] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x40440)[0x7f910859a440]
+[tw-Satellite-C45t-A:13589] [ 1] /lib/x86_64-linux-gnu/libc.so.6(gsignal+0xc7)[0x7f910859a3b7]
+[tw-Satellite-C45t-A:13589] [ 2] /lib/x86_64-linux-gnu/libc.so.6(abort+0x121)[0x7f910857b875]
+[tw-Satellite-C45t-A:13589] [ 3] /opt/openfoam9/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so(_ZN4Foam5error5abortEv+0xee)[0x7f91096ef19e]
+[tw-Satellite-C45t-A:13589] [ 4] /opt/openfoam9/platforms/linux64GccDPInt32Opt/lib/openmpi-system/libPstream.so(_ZN4Foam8UPstream4initERiRPPcb+0x40c)[0x7f910834ff1c]
+[tw-Satellite-C45t-A:13589] [ 5]  in "/opt/openfoam9/platforms/linux64GccDPInt32Opt/bin/potentialFoam"
+/opt/openfoam9/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so(_ZN4Foam7argListC1ERiRPPcbbb+0x8df)[0x7f9109706e1f]
+[tw-Satellite-C45t-A:13589] [ 6] potentialFoam(+0x2d13a)[0x557045c9e13a]
+[tw-Satellite-C45t-A:13589] [ 7] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xeb)[0x7f910857d3db]
+[tw-Satellite-C45t-A:13589] [ 8] potentialFoam(+0x2f69a)[0x557045ca069a]
+[tw-Satellite-C45t-A:13589] *** End of error message ***
+ in [tw-Satellite-C45t-A:13587] *** Process received signal ***
+[tw-Satellite-C45t-A:13587] Signal: Aborted (6)
+[tw-Satellite-C45t-A:13587] Signal code:  (-6)
+"/opt/openfoam9/platforms/linux64GccDPInt32Opt/bin/potentialFoam"
+[tw-Satellite-C45t-A:13587] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x40440)[0x7f124bbf0440]
+[tw-Satellite-C45t-A:13587] [ 1] /lib/x86_64-linux-gnu/libc.so.6(gsignal+0xc7)[0x7f124bbf03b7]
+[tw-Satellite-C45t-A:13587] [ 2] /lib/x86_64-linux-gnu/libc.so.6(abort+0x121)[0x7f124bbd1875]
+[tw-Satellite-C45t-A:13587] [ 3] /opt/openfoam9/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so(_ZN4Foam5error5abortEv+0xee)[0x7f124cd4519e]
+[tw-Satellite-C45t-A:13587] [ 4] /opt/openfoam9/platforms/linux64GccDPInt32Opt/lib/openmpi-system/libPstream.so(_ZN4Foam8UPstream4initERiRPPcb+0x40c)[0x7f124b9a5f1c]
+[tw-Satellite-C45t-A:13587] [ 5] /opt/openfoam9/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so(_ZN4Foam7argListC1ERiRPPcbbb+0x8df)[0x7f124cd5ce1f]
+[tw-Satellite-C45t-A:13587] [ 6] potentialFoam(+0x2d13a)[0x55989067b13a]
+[tw-Satellite-C45t-A:13587] [ 7] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xeb)[0x7f124bbd33db]
+[tw-Satellite-C45t-A:13587] [ 8] potentialFoam(+0x2f69a)[0x55989067d69a]
+[tw-Satellite-C45t-A:13587] *** End of error message ***
+? in "/lib/x86_64-linux-gnu/libc.so.6"
+#6   in "/opt/openfoam9/platforms/linux64GccDPInt32Opt/bin/potentialFoam"
+[tw-Satellite-C45t-A:13591] *** Process received signal ***
+[tw-Satellite-C45t-A:13591] Signal: Aborted (6)
+[tw-Satellite-C45t-A:13591] Signal code:  (-6)
+[tw-Satellite-C45t-A:13591] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x40440)[0x7fcb3d93a440]
+[tw-Satellite-C45t-A:13591] [ 1] /lib/x86_64-linux-gnu/libc.so.6(gsignal+0xc7)[0x7fcb3d93a3b7]
+[tw-Satellite-C45t-A:13591] [ 2] /lib/x86_64-linux-gnu/libc.so.6(abort+0x121)[0x7fcb3d91b875]
+[tw-Satellite-C45t-A:13591] [ 3] /opt/openfoam9/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so(_ZN4Foam5error5abortEv+0xee)[0x7fcb3ea8f19e]
+[tw-Satellite-C45t-A:13591] [ 4] /opt/openfoam9/platforms/linux64GccDPInt32Opt/lib/openmpi-system/libPstream.so(_ZN4Foam8UPstream4initERiRPPcb+0x40c)[0x7fcb3d6eff1c]
+[tw-Satellite-C45t-A:13591] [ 5] /opt/openfoam9/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so(_ZN4Foam7argListC1ERiRPPcbbb+0x8df)[0x7fcb3eaa6e1f]
+[tw-Satellite-C45t-A:13591] [ 6] potentialFoam(+0x2d13a)[0x564f294ee13a]
+[tw-Satellite-C45t-A:13591] [ 7] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xeb)[0x7fcb3d91d3db]
+[tw-Satellite-C45t-A:13591] [ 8] potentialFoam(+0x2f69a)[0x564f294f069a]
+[tw-Satellite-C45t-A:13591] *** End of error message ***
+[tw-Satellite-C45t-A:13590] *** Process received signal ***
+[tw-Satellite-C45t-A:13590] Signal: Aborted (6)
+[tw-Satellite-C45t-A:13590] Signal code:  (-6)
+[tw-Satellite-C45t-A:13590] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x40440)[0x7f69018c6440]
+[tw-Satellite-C45t-A:13590] [ 1] /lib/x86_64-linux-gnu/libc.so.6(gsignal+0xc7)[0x7f69018c63b7]
+[tw-Satellite-C45t-A:13590] [ 2] /lib/x86_64-linux-gnu/libc.so.6(abort+0x121)[0x7f69018a7875]
+[tw-Satellite-C45t-A:13590] [ 3] /opt/openfoam9/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so(_ZN4Foam5error5abortEv+0xee)[0x7f6902a1b19e]
+[tw-Satellite-C45t-A:13590] [ 4] /opt/openfoam9/platforms/linux64GccDPInt32Opt/lib/openmpi-system/libPstream.so(_ZN4Foam8UPstream4initERiRPPcb+0x40c)[0x7f690167bf1c]
+[tw-Satellite-C45t-A:13590] [ 5] /opt/openfoam9/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so(_ZN4Foam7argListC1ERiRPPcbbb+0x8df)[0x7f6902a32e1f]
+[tw-Satellite-C45t-A:13590] [ 6] potentialFoam(+0x2d13a)[0x5590be15313a]
+[tw-Satellite-C45t-A:13590] [ 7] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xeb)[0x7f69018a93db]
+[tw-Satellite-C45t-A:13590] [ 8] potentialFoam(+0x2f69a)[0x5590be15569a]
+[tw-Satellite-C45t-A:13590] *** End of error message ***
+? in "/opt/openfoam9/platforms/linux64GccDPInt32Opt/bin/potentialFoam"
+[tw-Satellite-C45t-A:13586] *** Process received signal ***
+[tw-Satellite-C45t-A:13586] Signal: Aborted (6)
+[tw-Satellite-C45t-A:13586] Signal code:  (-6)
+[tw-Satellite-C45t-A:13586] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x40440)[0x7f48cc6ac440]
+[tw-Satellite-C45t-A:13586] [ 1] /lib/x86_64-linux-gnu/libc.so.6(gsignal+0xc7)[0x7f48cc6ac3b7]
+[tw-Satellite-C45t-A:13586] [ 2] /lib/x86_64-linux-gnu/libc.so.6(abort+0x121)[0x7f48cc68d875]
+[tw-Satellite-C45t-A:13586] [ 3] /opt/openfoam9/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so(_ZN4Foam5error5abortEv+0xee)[0x7f48cd80119e]
+[tw-Satellite-C45t-A:13586] [ 4] /opt/openfoam9/platforms/linux64GccDPInt32Opt/lib/openmpi-system/libPstream.so(_ZN4Foam8UPstream4initERiRPPcb+0x40c)[0x7f48cc461f1c]
+[tw-Satellite-C45t-A:13586] [ 5] /opt/openfoam9/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so(_ZN4Foam7argListC1ERiRPPcbbb+0x8df)[0x7f48cd818e1f]
+[tw-Satellite-C45t-A:13586] [ 6] potentialFoam(+0x2d13a)[0x56236081513a]
+[tw-Satellite-C45t-A:13586] [ 7] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xeb)[0x7f48cc68f3db]
+[tw-Satellite-C45t-A:13586] [ 8] potentialFoam(+0x2f69a)[0x56236081769a]
+[tw-Satellite-C45t-A:13586] *** End of error message ***
+ in "/opt/openfoam9/platforms/linux64GccDPInt32Opt/bin/potentialFoam"
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 13586 RUNNING AT tw-Satellite-C45t-A
+=   EXIT CODE: 6
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+YOUR APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+This typically refers to a problem with your application.
+Please see the FAQ page for debugging suggestions

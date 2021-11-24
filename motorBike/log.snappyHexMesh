@@ -1,0 +1,191 @@
+
+
+--> FOAM FATAL ERROR: 
+bool IPstream::init(int& argc, char**& argv) : attempt to run parallel on 1 processor
+
+    From function static bool Foam::UPstream::init(int&, char**&, bool)
+    in file UPstream.C at line 112.
+
+FOAM aborting
+
+#0  Foam::error::printStack(Foam::Ostream&)
+
+--> FOAM FATAL ERROR: 
+bool IPstream::init(int& argc, char**& argv) : attempt to run parallel on 1 processor
+
+    From function static bool Foam::UPstream::init(int&, char**&, bool)
+    in file UPstream.C at line 112.
+
+FOAM aborting
+
+#0  Foam::error::printStack(Foam::Ostream&)
+
+--> FOAM FATAL ERROR: 
+bool IPstream::init(int& argc, char**& argv) : attempt to run parallel on 1 processor
+
+    From function static bool Foam::UPstream::init(int&, char**&, bool)
+    in file UPstream.C at line 112.
+
+FOAM aborting
+
+#0  Foam::error::printStack(Foam::Ostream&)
+
+--> FOAM FATAL ERROR: 
+bool IPstream::init(int& argc, char**& argv) : attempt to run parallel on 1 processor
+
+    From function static bool Foam::UPstream::init(int&, char**&, bool)
+    in file UPstream.C at line 112.
+
+FOAM aborting
+
+#0  Foam::error::printStack(Foam::Ostream&) at ??:?
+#1  Foam::error::abort() at ??:?
+#1  Foam::error::abort()
+
+--> FOAM FATAL ERROR: 
+bool IPstream::init(int& argc, char**& argv) : attempt to run parallel on 1 processor
+
+    From function static bool Foam::UPstream::init(int&, char**&, bool)
+    in file UPstream.C at line 112.
+
+FOAM aborting
+
+# at ??:?
+#1  Foam::error::abort()0  Foam::error::printStack(Foam::Ostream&) at ??:?
+#2  Foam::UPstream::init(int&, char**&, bool) at ??:?
+#2  Foam::UPstream::init(int&, char**&, bool) at ??:?
+#2  Foam::UPstream::init(int&, char**&, bool) at ??:?
+#1  Foam::error::abort() at ??:?
+#1  Foam::error::abort()
+
+--> FOAM FATAL ERROR: 
+bool IPstream::init(int& argc, char**& argv) : attempt to run parallel on 1 processor
+
+    From function static bool Foam::UPstream::init(int&, char**&, bool)
+    in file UPstream.C at line 112.
+
+FOAM aborting
+
+#0  Foam::error::printStack(Foam::Ostream&) at ??:?
+#3  Foam::argList::argList(int&, char**&, bool, bool, bool) at ??:?
+#3  Foam::argList::argList(int&, char**&, bool, bool, bool) at ??:?
+#3  Foam::argList::argList(int&, char**&, bool, bool, bool) at ??:?
+#2  Foam::UPstream::init(int&, char**&, bool) at ??:?
+#2  Foam::UPstream::init(int&, char**&, bool) at ??:?
+#4   at ??:?
+#1  Foam::error::abort() at ??:?
+#3  Foam::argList::argList(int&, char**&, bool, bool, bool)? at ??:?
+#4   at ??:?
+#4   at ??:?
+#3  Foam::argList::argList(int&, char**&, bool, bool, bool)? in "/opt/openfoam9/platforms/linux64GccDPInt32Opt/bin/snappyHexMesh"
+#5  __libc_start_main at ??:?
+#2  Foam::UPstream::init(int&, char**&, bool) at ??:?
+#4  ? at ??:?
+#3  Foam::argList::argList(int&, char**&, bool, bool, bool) in "/opt/openfoam9/platforms/linux64GccDPInt32Opt/bin/snappyHexMesh"
+#5  __libc_start_main in "/lib/x86_64-linux-gnu/libc.so.6"
+#6  ? at ??:?
+#4   in "/opt/openfoam9/platforms/linux64GccDPInt32Opt/bin/snappyHexMesh"
+#5  __libc_start_main? in "/opt/openfoam9/platforms/linux64GccDPInt32Opt/bin/snappyHexMesh"
+#5  __libc_start_main?[tw-Satellite-C45t-A:13258] *** Process received signal ***
+[tw-Satellite-C45t-A:13258] Signal: Aborted (6)
+[tw-Satellite-C45t-A:13258] Signal code:  (-6)
+[tw-Satellite-C45t-A:13258] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x40440)[0x7fbd1db60440]
+[tw-Satellite-C45t-A:13258] [ 1] /lib/x86_64-linux-gnu/libc.so.6(gsignal+0xc7)[0x7fbd1db603b7]
+[tw-Satellite-C45t-A:13258] [ 2] /lib/x86_64-linux-gnu/libc.so.6(abort+0x121)[0x7fbd1db41875]
+[tw-Satellite-C45t-A:13258] [ 3]  in "/opt/openfoam9/platforms/linux64GccDPInt32Opt/bin/snappyHexMesh"
+/opt/openfoam9/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so(_ZN4Foam5error5abortEv+0xee)[0x7fbd1ecb519e]
+[tw-Satellite-C45t-A:13258] [ 4] /opt/openfoam9/platforms/linux64GccDPInt32Opt/lib/openmpi-system/libPstream.so(_ZN4Foam8UPstream4initERiRPPcb+0x40c)[0x7fbd1d679f1c]
+[tw-Satellite-C45t-A:13258] [ 5] /opt/openfoam9/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so(_ZN4Foam7argListC1ERiRPPcbbb+0x8df)[0x7fbd1eccce1f]
+[tw-Satellite-C45t-A:13258] [ 6] snappyHexMesh(+0x1580a)[0x559b1459980a]
+[tw-Satellite-C45t-A:13258] [ 7] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xeb)[0x7fbd1db433db]
+[tw-Satellite-C45t-A:13258] [ 8] snappyHexMesh(+0x197aa)[0x559b1459d7aa]
+[tw-Satellite-C45t-A:13258] *** End of error message ***
+ in "/lib/x86_64-linux-gnu/libc.so.6"
+#6   in "/lib/x86_64-linux-gnu/libc.so.6"
+#6   in "/lib/x86_64-linux-gnu/libc.so.6"
+#6   in "/opt/openfoam9/platforms/linux64GccDPInt32Opt/bin/snappyHexMesh"
+#5  __libc_start_main at ??:?
+#4  ???[tw-Satellite-C45t-A:13257] *** Process received signal ***
+[tw-Satellite-C45t-A:13257] Signal: Aborted (6)
+[tw-Satellite-C45t-A:13257] Signal code:  (-6)
+[tw-Satellite-C45t-A:13257] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x40440)[0x7f2e2840f440]
+[tw-Satellite-C45t-A:13257] [ 1] /lib/x86_64-linux-gnu/libc.so.6(gsignal+0xc7)[0x7f2e2840f3b7]
+[tw-Satellite-C45t-A:13257] [ 2] /lib/x86_64-linux-gnu/libc.so.6(abort+0x121)[0x7f2e283f0875]
+[tw-Satellite-C45t-A:13257] [ 3] /opt/openfoam9/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so(_ZN4Foam5error5abortEv+0xee)[0x7f2e2956419e]
+[tw-Satellite-C45t-A:13257] [ 4] /opt/openfoam9/platforms/linux64GccDPInt32Opt/lib/openmpi-system/libPstream.so(_ZN4Foam8UPstream4initERiRPPcb+0x40c)[0x7f2e27f28f1c]
+[tw-Satellite-C45t-A:13257] [ 5] /opt/openfoam9/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so(_ZN4Foam7argListC1ERiRPPcbbb+0x8df)[0x7f2e2957be1f]
+[tw-Satellite-C45t-A:13257] [ 6] snappyHexMesh(+0x1580a)[0x5647f580780a]
+[tw-Satellite-C45t-A:13257] [ 7] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xeb)[0x7f2e283f23db]
+[tw-Satellite-C45t-A:13257] [ 8] snappyHexMesh(+0x197aa)[0x5647f580b7aa]
+[tw-Satellite-C45t-A:13257] *** End of error message ***
+[tw-Satellite-C45t-A:13262] *** Process received signal ***
+[tw-Satellite-C45t-A:13262] Signal: Aborted (6)
+[tw-Satellite-C45t-A:13262] Signal code:  (-6)
+[tw-Satellite-C45t-A:13262] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x40440)[0x7fa7ccfff440]
+[tw-Satellite-C45t-A:13262] [ 1] /lib/x86_64-linux-gnu/libc.so.6(gsignal+0xc7)[0x7fa7ccfff3b7]
+[tw-Satellite-C45t-A:13262] [ 2] /lib/x86_64-linux-gnu/libc.so.6(abort+0x121)[0x7fa7ccfe0875]
+[tw-Satellite-C45t-A:13262] [ 3] /opt/openfoam9/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so(_ZN4Foam5error5abortEv+0xee)[0x7fa7ce15419e]
+[tw-Satellite-C45t-A:13262] [ 4] /opt/openfoam9/platforms/linux64GccDPInt32Opt/lib/openmpi-system/libPstream.so(_ZN4Foam8UPstream4initERiRPPcb+0x40c)[0x7fa7ccb18f1c]
+[tw-Satellite-C45t-A:13262] [ 5] /opt/openfoam9/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so(_ZN4Foam7argListC1ERiRPPcbbb+0x8df)[0x7fa7ce16be1f]
+[tw-Satellite-C45t-A:13262] [ 6] snappyHexMesh(+0x1580a)[0x55c827bcd80a]
+[tw-Satellite-C45t-A:13262] [ 7] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xeb)[0x7fa7ccfe23db]
+[tw-Satellite-C45t-A:13262] [ 8] snappyHexMesh(+0x197aa)[0x55c827bd17aa]
+[tw-Satellite-C45t-A:13262] *** End of error message ***
+ in "/opt/openfoam9/platforms/linux64GccDPInt32Opt/bin/snappyHexMesh"
+ in "/opt/openfoam9/platforms/linux64GccDPInt32Opt/bin/snappyHexMesh"
+[tw-Satellite-C45t-A:13259] *** Process received signal ***
+[tw-Satellite-C45t-A:13259] Signal: Aborted (6)
+[tw-Satellite-C45t-A:13259] Signal code:  (-6)
+[tw-Satellite-C45t-A:13259] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x40440)[0x7eff1e111440]
+[tw-Satellite-C45t-A:13259] [ 1] /lib/x86_64-linux-gnu/libc.so.6(gsignal+0xc7)[0x7eff1e1113b7]
+[tw-Satellite-C45t-A:13259] [ 2] /lib/x86_64-linux-gnu/libc.so.6(abort+0x121)[0x7eff1e0f2875]
+[tw-Satellite-C45t-A:13259] [ 3] /opt/openfoam9/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so(_ZN4Foam5error5abortEv+0xee)[0x7eff1f26619e]
+[tw-Satellite-C45t-A:13259] [ 4] /opt/openfoam9/platforms/linux64GccDPInt32Opt/lib/openmpi-system/libPstream.so(_ZN4Foam8UPstream4initERiRPPcb+0x40c)[0x7eff1dc2af1c]
+[tw-Satellite-C45t-A:13259] [ 5] /opt/openfoam9/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so(_ZN4Foam7argListC1ERiRPPcbbb+0x8df)[0x7eff1f27de1f]
+[tw-Satellite-C45t-A:13259] [ 6] snappyHexMesh(+0x1580a)[0x55d722d1180a]
+[tw-Satellite-C45t-A:13259] [ 7] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xeb)[0x7eff1e0f43db]
+[tw-Satellite-C45t-A:13259] [ 8] snappyHexMesh(+0x197aa)[0x55d722d157aa]
+[tw-Satellite-C45t-A:13259] *** End of error message ***
+ in "/opt/openfoam9/platforms/linux64GccDPInt32Opt/bin/snappyHexMesh"
+? in "/lib/x86_64-linux-gnu/libc.so.6"
+#6  ? in "/opt/openfoam9/platforms/linux64GccDPInt32Opt/bin/snappyHexMesh"
+#5  __libc_start_main[tw-Satellite-C45t-A:13260] *** Process received signal ***
+[tw-Satellite-C45t-A:13260] Signal: Aborted (6)
+[tw-Satellite-C45t-A:13260] Signal code:  (-6)
+[tw-Satellite-C45t-A:13260] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x40440)[0x7fdc647d3440]
+[tw-Satellite-C45t-A:13260] [ 1] /lib/x86_64-linux-gnu/libc.so.6(gsignal+0xc7)[0x7fdc647d33b7]
+[tw-Satellite-C45t-A:13260] [ 2] /lib/x86_64-linux-gnu/libc.so.6(abort+0x121)[0x7fdc647b4875]
+[tw-Satellite-C45t-A:13260] [ 3] /opt/openfoam9/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so(_ZN4Foam5error5abortEv+0xee)[0x7fdc6592819e]
+[tw-Satellite-C45t-A:13260] [ 4] /opt/openfoam9/platforms/linux64GccDPInt32Opt/lib/openmpi-system/libPstream.so(_ZN4Foam8UPstream4initERiRPPcb+0x40c)[0x7fdc642ecf1c]
+[tw-Satellite-C45t-A:13260] [ 5] /opt/openfoam9/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so(_ZN4Foam7argListC1ERiRPPcbbb+0x8df)[0x7fdc6593fe1f]
+[tw-Satellite-C45t-A:13260] [ 6] snappyHexMesh(+0x1580a)[0x55ca0eb8480a]
+[tw-Satellite-C45t-A:13260] [ 7] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xeb)[0x7fdc647b63db]
+[tw-Satellite-C45t-A:13260] [ 8] snappyHexMesh(+0x197aa)[0x55ca0eb887aa]
+[tw-Satellite-C45t-A:13260] *** End of error message ***
+ in "/opt/openfoam9/platforms/linux64GccDPInt32Opt/bin/snappyHexMesh"
+ in "/lib/x86_64-linux-gnu/libc.so.6"
+#6  ?[tw-Satellite-C45t-A:13261] *** Process received signal ***
+[tw-Satellite-C45t-A:13261] Signal: Aborted (6)
+[tw-Satellite-C45t-A:13261] Signal code:  (-6)
+[tw-Satellite-C45t-A:13261] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x40440)[0x7fbeb1c8b440]
+[tw-Satellite-C45t-A:13261] [ 1] /lib/x86_64-linux-gnu/libc.so.6(gsignal+0xc7)[0x7fbeb1c8b3b7]
+[tw-Satellite-C45t-A:13261] [ 2] /lib/x86_64-linux-gnu/libc.so.6(abort+0x121)[0x7fbeb1c6c875]
+[tw-Satellite-C45t-A:13261] [ 3] /opt/openfoam9/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so(_ZN4Foam5error5abortEv+0xee)[0x7fbeb2de019e]
+[tw-Satellite-C45t-A:13261] [ 4] /opt/openfoam9/platforms/linux64GccDPInt32Opt/lib/openmpi-system/libPstream.so(_ZN4Foam8UPstream4initERiRPPcb+0x40c)[0x7fbeb17a4f1c]
+[tw-Satellite-C45t-A:13261] [ 5] /opt/openfoam9/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so(_ZN4Foam7argListC1ERiRPPcbbb+0x8df)[0x7fbeb2df7e1f]
+[tw-Satellite-C45t-A:13261] [ 6] snappyHexMesh(+0x1580a)[0x5636cd68980a]
+[tw-Satellite-C45t-A:13261] [ 7] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xeb)[0x7fbeb1c6e3db]
+[tw-Satellite-C45t-A:13261] [ 8] snappyHexMesh(+0x197aa)[0x5636cd68d7aa]
+[tw-Satellite-C45t-A:13261] *** End of error message ***
+ in "/opt/openfoam9/platforms/linux64GccDPInt32Opt/bin/snappyHexMesh"
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 13257 RUNNING AT tw-Satellite-C45t-A
+=   EXIT CODE: 6
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+YOUR APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+This typically refers to a problem with your application.
+Please see the FAQ page for debugging suggestions
