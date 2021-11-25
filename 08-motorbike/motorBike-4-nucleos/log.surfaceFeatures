@@ -1,0 +1,72 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  9
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 9-b456138dc4bc
+Exec   : surfaceFeatures
+Date   : Nov 24 2021
+Time   : 15:55:34
+Host   : "laptop-Lenovo-G400"
+PID    : 6419
+I/O    : uncollated
+Case   : /home/laptop/OpenFOAM/laptop-9/run/curso-cfd/motorBike
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Reading "surfaceFeaturesDict"
+
+Surface            : "motorBike.obj"
+
+
+Feature line extraction is only valid on closed manifold surfaces.
+Statistics:
+Triangles    : 331653
+Vertices     : 132871
+Bounding Box : (-0.291665 -0.350289 -4.232e-05) (1.75115 0.332267 1.35152)
+
+
+Constructing feature set from included angle 150
+Selecting edges purely based on geometric tests: no
+Removing all non-manifold edges (edges with > 2 connected faces) unless they cross multiple regions
+
+Initial feature set:
+    feature points : 2292
+    feature edges  : 20867
+    of which
+        region edges   : 8678
+        external edges : 2966
+        internal edges : 9223
+
+
+Final feature set:
+points      : 20665
+edges       : 20867
+boundingBox : (-0.241214 -0.337971 -4.232e-05) (1.75115 0.329368 1.21979)
+point classification :
+    convex feature points          :      586
+    concave feature points         :      509
+    mixed feature points           :     1197
+    other (non-feature) points     :    18373
+edge classification :
+    external (convex angle) edges  :     7171
+    internal (concave angle) edges :    10915
+    flat region edges              :       95
+    open edges                     :       49
+    multiply connected edges       :     2637
+
+Writing extendedFeatureEdgeMesh to "constant/extendedFeatureEdgeMesh/motorBike.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "constant/geometry/motorBike.eMesh"
+
+ExecutionTime = 3.35 s  ClockTime = 4 s
+
+End
+

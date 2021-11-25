@@ -1,0 +1,97 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  9
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 9-b456138dc4bc
+Exec   : reconstructParMesh -constant
+Date   : Nov 24 2021
+Time   : 16:10:49
+Host   : "laptop-Lenovo-G400"
+PID    : 6576
+I/O    : uncollated
+Case   : /home/laptop/OpenFOAM/laptop-9/run/curso-cfd/motorBike
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Found 4 processor directories
+
+Reading database "motorBike/processor0"
+Reading database "motorBike/processor1"
+Reading database "motorBike/processor2"
+Reading database "motorBike/processor3"
+Time = constant
+
+Merging mesh 0 with 1
+Merging mesh 2 with 3
+Merging mesh 0 with 2
+Reading mesh to add from "motorBike/processor0" for time = constant
+
+
+Reading mesh to add from "motorBike/processor1" for time = constant
+
+
+Reading mesh to add from "motorBike/processor2" for time = constant
+
+
+Reading mesh to add from "motorBike/processor3" for time = constant
+
+
+
+Writing merged mesh to "/home/laptop/OpenFOAM/laptop-9/run/curso-cfd/motorBike/constant"
+
+Reconstructing the addressing from the processor meshes to the newly reconstructed mesh
+
+Reading processor 0 mesh from "motorBike/processor0"
+Writing pointProcAddressing to "motorBike/processor0/constant/polyMesh"
+Writing faceProcAddressing to "motorBike/processor0/constant/polyMesh"
+Writing cellProcAddressing to "motorBike/processor0/constant/polyMesh"
+Writing boundaryProcAddressing to "motorBike/processor0/constant/polyMesh"
+
+Reading processor 1 mesh from "motorBike/processor1"
+Writing pointProcAddressing to "motorBike/processor1/constant/polyMesh"
+Writing faceProcAddressing to "motorBike/processor1/constant/polyMesh"
+Writing cellProcAddressing to "motorBike/processor1/constant/polyMesh"
+Writing boundaryProcAddressing to "motorBike/processor1/constant/polyMesh"
+
+Reading processor 2 mesh from "motorBike/processor2"
+Writing pointProcAddressing to "motorBike/processor2/constant/polyMesh"
+Writing faceProcAddressing to "motorBike/processor2/constant/polyMesh"
+Writing cellProcAddressing to "motorBike/processor2/constant/polyMesh"
+Writing boundaryProcAddressing to "motorBike/processor2/constant/polyMesh"
+
+Reading processor 3 mesh from "motorBike/processor3"
+Writing pointProcAddressing to "motorBike/processor3/constant/polyMesh"
+Writing faceProcAddressing to "motorBike/processor3/constant/polyMesh"
+Writing cellProcAddressing to "motorBike/processor3/constant/polyMesh"
+Writing boundaryProcAddressing to "motorBike/processor3/constant/polyMesh"
+
+Time = 100
+
+No mesh.
+
+Time = 200
+
+No mesh.
+
+Time = 300
+
+No mesh.
+
+Time = 400
+
+No mesh.
+
+Time = 500
+
+No mesh.
+
+End.
+

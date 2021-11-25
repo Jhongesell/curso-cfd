@@ -1,0 +1,77 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  9
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 9-b456138dc4bc
+Exec   : blockMesh
+Date   : Nov 24 2021
+Time   : 15:55:38
+Host   : "laptop-Lenovo-G400"
+PID    : 6420
+I/O    : uncollated
+Case   : /home/laptop/OpenFOAM/laptop-9/run/curso-cfd/motorBike
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Reading "blockMeshDict"
+
+Creating block mesh from
+    "system/blockMeshDict"
+Creating block edges
+No non-planar block faces defined
+Creating topology blocks
+Creating topology patches
+
+Creating block mesh topology
+
+Check topology
+
+	Basic statistics
+		Number of internal faces : 0
+		Number of boundary faces : 6
+		Number of defined boundary faces : 6
+		Number of undefined boundary faces : 0
+	Checking patch -> block consistency
+
+Creating block offsets
+Creating merge list .
+
+Creating polyMesh from blockMesh
+Creating patches
+Creating cells
+Creating points with scale 1
+    Block 0 cell size :
+        i : 1
+        j : 1
+        k : 1
+
+There are no merge patch pairs edges
+
+Writing polyMesh
+----------------
+Mesh Information
+----------------
+  boundingBox: (-5 -4 0) (15 4 8)
+  nPoints: 1701
+  nCells: 1280
+  nFaces: 4224
+  nInternalFaces: 3456
+----------------
+Patches
+----------------
+  patch 0 (start: 3456 size: 320) name: frontAndBack
+  patch 1 (start: 3776 size: 64) name: inlet
+  patch 2 (start: 3840 size: 64) name: outlet
+  patch 3 (start: 3904 size: 160) name: lowerWall
+  patch 4 (start: 4064 size: 160) name: upperWall
+
+End
+
